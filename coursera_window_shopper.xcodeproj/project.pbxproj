@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EE2B44123D489CF005FCBCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2B44023D489CF005FCBCE /* AppDelegate.swift */; };
+		5EE2B44323D489CF005FCBCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2B44223D489CF005FCBCE /* SceneDelegate.swift */; };
+		5EE2B44523D489CF005FCBCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2B44423D489CF005FCBCE /* ViewController.swift */; };
+		5EE2B44823D489CF005FCBCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE2B44623D489CF005FCBCE /* Main.storyboard */; };
+		5EE2B44A23D489D1005FCBCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EE2B44923D489D1005FCBCE /* Assets.xcassets */; };
+		5EE2B44D23D489D1005FCBCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE2B44B23D489D1005FCBCE /* LaunchScreen.storyboard */; };
+		5EE2B45823D489D1005FCBCE /* coursera_window_shopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2B45723D489D1005FCBCE /* coursera_window_shopperTests.swift */; };
+		5EE2B46323D489D1005FCBCE /* coursera_window_shopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2B46223D489D1005FCBCE /* coursera_window_shopperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EE2B45423D489D1005FCBCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EE2B43523D489CF005FCBCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EE2B43C23D489CF005FCBCE;
+			remoteInfo = coursera_window_shopper;
+		};
+		5EE2B45F23D489D1005FCBCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EE2B43523D489CF005FCBCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EE2B43C23D489CF005FCBCE;
+			remoteInfo = coursera_window_shopper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EE2B43D23D489CF005FCBCE /* coursera_window_shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coursera_window_shopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE2B44023D489CF005FCBCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EE2B44223D489CF005FCBCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5EE2B44423D489CF005FCBCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EE2B44723D489CF005FCBCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EE2B44923D489D1005FCBCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EE2B44C23D489D1005FCBCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EE2B44E23D489D1005FCBCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EE2B45323D489D1005FCBCE /* coursera_window_shopperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coursera_window_shopperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE2B45723D489D1005FCBCE /* coursera_window_shopperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coursera_window_shopperTests.swift; sourceTree = "<group>"; };
+		5EE2B45923D489D1005FCBCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EE2B45E23D489D1005FCBCE /* coursera_window_shopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coursera_window_shopperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE2B46223D489D1005FCBCE /* coursera_window_shopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coursera_window_shopperUITests.swift; sourceTree = "<group>"; };
+		5EE2B46423D489D1005FCBCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EE2B43A23D489CF005FCBCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE2B45023D489D1005FCBCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE2B45B23D489D1005FCBCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EE2B43423D489CF005FCBCE = {
+			isa = PBXGroup;
+			children = (
+				5EE2B43F23D489CF005FCBCE /* coursera_window_shopper */,
+				5EE2B45623D489D1005FCBCE /* coursera_window_shopperTests */,
+				5EE2B46123D489D1005FCBCE /* coursera_window_shopperUITests */,
+				5EE2B43E23D489CF005FCBCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EE2B43E23D489CF005FCBCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EE2B43D23D489CF005FCBCE /* coursera_window_shopper.app */,
+				5EE2B45323D489D1005FCBCE /* coursera_window_shopperTests.xctest */,
+				5EE2B45E23D489D1005FCBCE /* coursera_window_shopperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EE2B43F23D489CF005FCBCE /* coursera_window_shopper */ = {
+			isa = PBXGroup;
+			children = (
+				5EE2B44023D489CF005FCBCE /* AppDelegate.swift */,
+				5EE2B44223D489CF005FCBCE /* SceneDelegate.swift */,
+				5EE2B44423D489CF005FCBCE /* ViewController.swift */,
+				5EE2B44623D489CF005FCBCE /* Main.storyboard */,
+				5EE2B44923D489D1005FCBCE /* Assets.xcassets */,
+				5EE2B44B23D489D1005FCBCE /* LaunchScreen.storyboard */,
+				5EE2B44E23D489D1005FCBCE /* Info.plist */,
+			);
+			path = coursera_window_shopper;
+			sourceTree = "<group>";
+		};
+		5EE2B45623D489D1005FCBCE /* coursera_window_shopperTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EE2B45723D489D1005FCBCE /* coursera_window_shopperTests.swift */,
+				5EE2B45923D489D1005FCBCE /* Info.plist */,
+			);
+			path = coursera_window_shopperTests;
+			sourceTree = "<group>";
+		};
+		5EE2B46123D489D1005FCBCE /* coursera_window_shopperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EE2B46223D489D1005FCBCE /* coursera_window_shopperUITests.swift */,
+				5EE2B46423D489D1005FCBCE /* Info.plist */,
+			);
+			path = coursera_window_shopperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EE2B43C23D489CF005FCBCE /* coursera_window_shopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE2B46723D489D1005FCBCE /* Build configuration list for PBXNativeTarget "coursera_window_shopper" */;
+			buildPhases = (
+				5EE2B43923D489CF005FCBCE /* Sources */,
+				5EE2B43A23D489CF005FCBCE /* Frameworks */,
+				5EE2B43B23D489CF005FCBCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coursera_window_shopper;
+			productName = coursera_window_shopper;
+			productReference = 5EE2B43D23D489CF005FCBCE /* coursera_window_shopper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EE2B45223D489D1005FCBCE /* coursera_window_shopperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE2B46A23D489D1005FCBCE /* Build configuration list for PBXNativeTarget "coursera_window_shopperTests" */;
+			buildPhases = (
+				5EE2B44F23D489D1005FCBCE /* Sources */,
+				5EE2B45023D489D1005FCBCE /* Frameworks */,
+				5EE2B45123D489D1005FCBCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EE2B45523D489D1005FCBCE /* PBXTargetDependency */,
+			);
+			name = coursera_window_shopperTests;
+			productName = coursera_window_shopperTests;
+			productReference = 5EE2B45323D489D1005FCBCE /* coursera_window_shopperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EE2B45D23D489D1005FCBCE /* coursera_window_shopperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE2B46D23D489D1005FCBCE /* Build configuration list for PBXNativeTarget "coursera_window_shopperUITests" */;
+			buildPhases = (
+				5EE2B45A23D489D1005FCBCE /* Sources */,
+				5EE2B45B23D489D1005FCBCE /* Frameworks */,
+				5EE2B45C23D489D1005FCBCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EE2B46023D489D1005FCBCE /* PBXTargetDependency */,
+			);
+			name = coursera_window_shopperUITests;
+			productName = coursera_window_shopperUITests;
+			productReference = 5EE2B45E23D489D1005FCBCE /* coursera_window_shopperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EE2B43523D489CF005FCBCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Muhammad Hashim";
+				TargetAttributes = {
+					5EE2B43C23D489CF005FCBCE = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					5EE2B45223D489D1005FCBCE = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5EE2B43C23D489CF005FCBCE;
+					};
+					5EE2B45D23D489D1005FCBCE = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5EE2B43C23D489CF005FCBCE;
+					};
+				};
+			};
+			buildConfigurationList = 5EE2B43823D489CF005FCBCE /* Build configuration list for PBXProject "coursera_window_shopper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EE2B43423D489CF005FCBCE;
+			productRefGroup = 5EE2B43E23D489CF005FCBCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EE2B43C23D489CF005FCBCE /* coursera_window_shopper */,
+				5EE2B45223D489D1005FCBCE /* coursera_window_shopperTests */,
+				5EE2B45D23D489D1005FCBCE /* coursera_window_shopperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EE2B43B23D489CF005FCBCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE2B44D23D489D1005FCBCE /* LaunchScreen.storyboard in Resources */,
+				5EE2B44A23D489D1005FCBCE /* Assets.xcassets in Resources */,
+				5EE2B44823D489CF005FCBCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE2B45123D489D1005FCBCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE2B45C23D489D1005FCBCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EE2B43923D489CF005FCBCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE2B44523D489CF005FCBCE /* ViewController.swift in Sources */,
+				5EE2B44123D489CF005FCBCE /* AppDelegate.swift in Sources */,
+				5EE2B44323D489CF005FCBCE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE2B44F23D489D1005FCBCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE2B45823D489D1005FCBCE /* coursera_window_shopperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE2B45A23D489D1005FCBCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE2B46323D489D1005FCBCE /* coursera_window_shopperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EE2B45523D489D1005FCBCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EE2B43C23D489CF005FCBCE /* coursera_window_shopper */;
+			targetProxy = 5EE2B45423D489D1005FCBCE /* PBXContainerItemProxy */;
+		};
+		5EE2B46023D489D1005FCBCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EE2B43C23D489CF005FCBCE /* coursera_window_shopper */;
+			targetProxy = 5EE2B45F23D489D1005FCBCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EE2B44623D489CF005FCBCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EE2B44723D489CF005FCBCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EE2B44B23D489D1005FCBCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EE2B44C23D489D1005FCBCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EE2B46523D489D1005FCBCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EE2B46623D489D1005FCBCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EE2B46823D489D1005FCBCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 628BGA2A6P;
+				INFOPLIST_FILE = coursera_window_shopper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mhashim6.coursera-window-shopper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EE2B46923D489D1005FCBCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 628BGA2A6P;
+				INFOPLIST_FILE = coursera_window_shopper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mhashim6.coursera-window-shopper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EE2B46B23D489D1005FCBCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 628BGA2A6P;
+				INFOPLIST_FILE = coursera_window_shopperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mhashim6.coursera-window-shopperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coursera_window_shopper.app/coursera_window_shopper";
+			};
+			name = Debug;
+		};
+		5EE2B46C23D489D1005FCBCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 628BGA2A6P;
+				INFOPLIST_FILE = coursera_window_shopperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mhashim6.coursera-window-shopperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coursera_window_shopper.app/coursera_window_shopper";
+			};
+			name = Release;
+		};
+		5EE2B46E23D489D1005FCBCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 628BGA2A6P;
+				INFOPLIST_FILE = coursera_window_shopperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mhashim6.coursera-window-shopperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coursera_window_shopper;
+			};
+			name = Debug;
+		};
+		5EE2B46F23D489D1005FCBCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 628BGA2A6P;
+				INFOPLIST_FILE = coursera_window_shopperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mhashim6.coursera-window-shopperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = coursera_window_shopper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EE2B43823D489CF005FCBCE /* Build configuration list for PBXProject "coursera_window_shopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE2B46523D489D1005FCBCE /* Debug */,
+				5EE2B46623D489D1005FCBCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE2B46723D489D1005FCBCE /* Build configuration list for PBXNativeTarget "coursera_window_shopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE2B46823D489D1005FCBCE /* Debug */,
+				5EE2B46923D489D1005FCBCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE2B46A23D489D1005FCBCE /* Build configuration list for PBXNativeTarget "coursera_window_shopperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE2B46B23D489D1005FCBCE /* Debug */,
+				5EE2B46C23D489D1005FCBCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE2B46D23D489D1005FCBCE /* Build configuration list for PBXNativeTarget "coursera_window_shopperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE2B46E23D489D1005FCBCE /* Debug */,
+				5EE2B46F23D489D1005FCBCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EE2B43523D489CF005FCBCE /* Project object */;
+}
